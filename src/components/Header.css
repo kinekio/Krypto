@@ -1,0 +1,38 @@
+.top-nav .h-left h1 {
+    margin: 0;
+    margin-left: 10%;
+    padding: 20px;
+    color: azure;
+    font-size: medium;
+    
+}
+.top-nav {
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+}
+
+.h-left{
+    flex: 50%;
+}
+.h-right p{
+    margin: 0;
+    color: azure;
+    font-size: medium;
+    display: inline-block;
+    padding: 20px;
+    flex: 50%;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.h-right select{
+    display: none;
+}
+@media (max-width: 960px) {
+    .h-right p     { display: none; }
+    .h-right select { display: inline-block; }
+}
